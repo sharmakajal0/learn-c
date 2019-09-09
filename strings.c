@@ -3,10 +3,10 @@
 
 int main()
 {
-    char *name = "Kajal";
+    char name[] = { 75, 97, 106, 97, 108, 0 };
     int age = 27;
 
-    if (strncmp(name, "Jonas", 5) == 0){
+    if (strcmp(name, "Kajal1") == 0){
         printf("Hello, Kajal\n");
     } else {
         printf("You are not kajal, Go away\n");
